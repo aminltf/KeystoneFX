@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.36105.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeystoneFX.Shared.Kernel", "src\KeystoneFX.Shared.Kernel\KeystoneFX.Shared.Kernel.csproj", "{13ACCAF4-72D5-4B5D-801D-70437D41F6A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeystoneFX.Application", "src\KeystoneFX.Application\KeystoneFX.Application.csproj", "{4540830D-E57C-40D2-A806-1A6BDEDA2C5E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeystoneFX.Infrastructure.Shared", "src\KeystoneFX.Infrastructure.Shared\KeystoneFX.Infrastructure.Shared.csproj", "{11B4475F-AD12-4CB4-A7AF-EF345F53F533}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{13ACCAF4-72D5-4B5D-801D-70437D41F6A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13ACCAF4-72D5-4B5D-801D-70437D41F6A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13ACCAF4-72D5-4B5D-801D-70437D41F6A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13ACCAF4-72D5-4B5D-801D-70437D41F6A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4540830D-E57C-40D2-A806-1A6BDEDA2C5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4540830D-E57C-40D2-A806-1A6BDEDA2C5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4540830D-E57C-40D2-A806-1A6BDEDA2C5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4540830D-E57C-40D2-A806-1A6BDEDA2C5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11B4475F-AD12-4CB4-A7AF-EF345F53F533}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11B4475F-AD12-4CB4-A7AF-EF345F53F533}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11B4475F-AD12-4CB4-A7AF-EF345F53F533}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11B4475F-AD12-4CB4-A7AF-EF345F53F533}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{13ACCAF4-72D5-4B5D-801D-70437D41F6A1} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{4540830D-E57C-40D2-A806-1A6BDEDA2C5E} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{11B4475F-AD12-4CB4-A7AF-EF345F53F533} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {58E43A69-90CD-44CF-B958-87C188B221EE}
+	EndGlobalSection
+EndGlobal
