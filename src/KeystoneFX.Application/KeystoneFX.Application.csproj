@@ -12,7 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\KeystoneFX.Shared.Kernel\KeystoneFX.Shared.Kernel.csproj" />
+    <ProjectReference Include="..\KeystoneFX.Domain\KeystoneFX.Domain.csproj" />
   </ItemGroup>
 
 </Project>

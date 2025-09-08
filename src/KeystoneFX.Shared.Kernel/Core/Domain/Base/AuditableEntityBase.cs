@@ -4,7 +4,7 @@ namespace KeystoneFX.Shared.Kernel.Core.Domain.Base;
 
 public abstract class AuditableEntityBase<TKey, TUserKey> : EntityBase<TKey>, IAuditable<TUserKey>
         where TKey : IEquatable<TKey>
-        where TUserKey : IEquatable<TUserKey>
+        where TUserKey : struct, IEquatable<TUserKey>
 {
     public TUserKey? CreatedBy { get; set; }
     public DateTimeOffset CreatedOnUtc { get; set; }

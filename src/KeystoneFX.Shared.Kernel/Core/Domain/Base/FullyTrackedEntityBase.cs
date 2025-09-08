@@ -7,7 +7,7 @@ public abstract class FullyTrackedEntityBase<TKey, TUserKey>
         IAuditable<TUserKey>,
         ISoftDeletable<TUserKey>
         where TKey : IEquatable<TKey>
-        where TUserKey : IEquatable<TUserKey>
+        where TUserKey : struct, IEquatable<TUserKey>
 {
     // Auditing
     public TUserKey? CreatedBy { get; set; }

@@ -1,0 +1,6 @@
+@KeystoneFX.WebAPI_HostAddress = http://localhost:5023
+
+GET {{KeystoneFX.WebAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

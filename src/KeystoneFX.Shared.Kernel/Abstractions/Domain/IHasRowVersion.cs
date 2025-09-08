@@ -2,5 +2,5 @@
 
 public interface IHasRowVersion
 {
-    byte[] RowVersion { get; set; }
+    byte[]? RowVersion { get; set; }
 }

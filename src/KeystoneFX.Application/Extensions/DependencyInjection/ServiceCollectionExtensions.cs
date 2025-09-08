@@ -1,7 +1,7 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 using System.Reflection;
 
-namespace KeystoneFX.Application.Extensions;
+namespace KeystoneFX.Application.Extensions.DependencyInjection;
 
 public static class ServiceCollectionExtensions
 {

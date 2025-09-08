@@ -9,7 +9,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeystoneFX.Shared.Kernel", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeystoneFX.Application", "src\KeystoneFX.Application\KeystoneFX.Application.csproj", "{4540830D-E57C-40D2-A806-1A6BDEDA2C5E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeystoneFX.Infrastructure.Shared", "src\KeystoneFX.Infrastructure.Shared\KeystoneFX.Infrastructure.Shared.csproj", "{11B4475F-AD12-4CB4-A7AF-EF345F53F533}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeystoneFX.Infrastructure", "src\KeystoneFX.Infrastructure\KeystoneFX.Infrastructure.csproj", "{9DD9C08C-AE8B-44E8-B0DB-F017F25BB43C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeystoneFX.Domain", "src\KeystoneFX.Domain\KeystoneFX.Domain.csproj", "{649E6370-C884-49DC-8425-CE5657B6C367}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeystoneFX.WebAPI", "src\KeystoneFX.WebAPI\KeystoneFX.WebAPI.csproj", "{49A98593-3EEA-4986-A82E-0D39CF13BD73}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,10 +29,18 @@ Global
 		{4540830D-E57C-40D2-A806-1A6BDEDA2C5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4540830D-E57C-40D2-A806-1A6BDEDA2C5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4540830D-E57C-40D2-A806-1A6BDEDA2C5E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{11B4475F-AD12-4CB4-A7AF-EF345F53F533}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{11B4475F-AD12-4CB4-A7AF-EF345F53F533}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{11B4475F-AD12-4CB4-A7AF-EF345F53F533}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{11B4475F-AD12-4CB4-A7AF-EF345F53F533}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DD9C08C-AE8B-44E8-B0DB-F017F25BB43C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DD9C08C-AE8B-44E8-B0DB-F017F25BB43C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DD9C08C-AE8B-44E8-B0DB-F017F25BB43C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DD9C08C-AE8B-44E8-B0DB-F017F25BB43C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{649E6370-C884-49DC-8425-CE5657B6C367}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{649E6370-C884-49DC-8425-CE5657B6C367}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{649E6370-C884-49DC-8425-CE5657B6C367}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{649E6370-C884-49DC-8425-CE5657B6C367}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49A98593-3EEA-4986-A82E-0D39CF13BD73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49A98593-3EEA-4986-A82E-0D39CF13BD73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49A98593-3EEA-4986-A82E-0D39CF13BD73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49A98593-3EEA-4986-A82E-0D39CF13BD73}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -36,7 +48,9 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{13ACCAF4-72D5-4B5D-801D-70437D41F6A1} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{4540830D-E57C-40D2-A806-1A6BDEDA2C5E} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
-		{11B4475F-AD12-4CB4-A7AF-EF345F53F533} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{9DD9C08C-AE8B-44E8-B0DB-F017F25BB43C} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{649E6370-C884-49DC-8425-CE5657B6C367} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{49A98593-3EEA-4986-A82E-0D39CF13BD73} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {58E43A69-90CD-44CF-B958-87C188B221EE}

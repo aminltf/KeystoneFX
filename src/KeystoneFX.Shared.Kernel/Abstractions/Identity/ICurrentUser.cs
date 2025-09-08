@@ -1,6 +1,6 @@
 ﻿namespace KeystoneFX.Shared.Kernel.Abstractions.Identity;
 
-public interface ICurrentUser<TUserKey> where TUserKey : IEquatable<TUserKey>
+public interface ICurrentUser<TUserKey> where TUserKey : struct, IEquatable<TUserKey>
 {
     bool IsAuthenticated { get; }
     TUserKey? UserId { get; }

@@ -1,6 +1,6 @@
 ﻿namespace KeystoneFX.Shared.Kernel.Abstractions.Domain;
 
-public interface ISoftDeletable<TUserKey> where TUserKey : IEquatable<TUserKey>
+public interface ISoftDeletable<TUserKey> where TUserKey : struct, IEquatable<TUserKey>
 {
     bool IsDeleted { get; set; }
     TUserKey? DeletedBy { get; set; }
