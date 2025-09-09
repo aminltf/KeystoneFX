@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace KeystoneFX.Infrastructure.Identity.Configurations;
 
-public sealed class UserClaimConfig : IEntityTypeConfiguration<UserClaim>
+public class UserClaimConfig : IEntityTypeConfiguration<UserClaim>
 {
     public void Configure(EntityTypeBuilder<UserClaim> builder)
     {

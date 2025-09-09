@@ -3,5 +3,5 @@ using KeystoneFX.Application.Features.Identity.Role.Dtos;
 
 namespace KeystoneFX.Application.Features.Identity.Role.Commands.Update;
 
-public sealed record UpdateRoleCommand(Guid Id, RoleUpdateDto Model)
+public record UpdateRoleCommand(Guid Id, RoleUpdateDto Model)
     : UpdateCommandBase<Guid, RoleUpdateDto>(Id, Model);

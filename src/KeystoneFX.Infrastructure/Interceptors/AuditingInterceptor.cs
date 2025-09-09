@@ -7,7 +7,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace KeystoneFX.Infrastructure.Interceptors;
 
-public sealed class AuditingInterceptor<TUserKey> : SaveChangesInterceptor
+public class AuditingInterceptor<TUserKey> : SaveChangesInterceptor
     where TUserKey : struct, IEquatable<TUserKey>
 {
     private readonly ICurrentUser<TUserKey> _currentUser;

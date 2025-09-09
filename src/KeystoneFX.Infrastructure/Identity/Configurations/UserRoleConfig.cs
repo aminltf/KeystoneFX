@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace KeystoneFX.Infrastructure.Identity.Configurations;
 
-public sealed class UserRoleConfig : IEntityTypeConfiguration<UserRole>
+public class UserRoleConfig : IEntityTypeConfiguration<UserRole>
 {
     public void Configure(EntityTypeBuilder<UserRole> builder)
     {

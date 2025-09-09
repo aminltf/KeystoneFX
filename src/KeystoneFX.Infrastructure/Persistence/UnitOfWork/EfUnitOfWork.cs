@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace KeystoneFX.Infrastructure.Persistence.UnitOfWork;
 
-public sealed class EfUnitOfWork : IUnitOfWork
+public class EfUnitOfWork : IUnitOfWork
 {
     private readonly DbContext _db;
     private IDbContextTransaction? _currentTx;

@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace KeystoneFX.Infrastructure.Identity.Configurations;
 
-public sealed class UserRefreshTokenConfig : IEntityTypeConfiguration<UserRefreshToken>
+public class UserRefreshTokenConfig : IEntityTypeConfiguration<UserRefreshToken>
 {
     public void Configure(EntityTypeBuilder<UserRefreshToken> b)
     {

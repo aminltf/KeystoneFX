@@ -4,7 +4,7 @@ using System.Security.Claims;
 
 namespace KeystoneFX.Infrastructure.Security;
 
-public sealed class HttpContextCurrentUser<TUserKey> : ICurrentUser<TUserKey>
+public class HttpContextCurrentUser<TUserKey> : ICurrentUser<TUserKey>
     where TUserKey : struct, IEquatable<TUserKey>
 {
     private readonly IHttpContextAccessor _http;

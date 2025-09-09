@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.ChangeTracking;
 
 namespace KeystoneFX.Infrastructure.Persistence.Repositories;
 
-public sealed class EfWriteRepository<TEntity, TKey> : IWriteRepository<TEntity, TKey>
+public class EfWriteRepository<TEntity, TKey> : IWriteRepository<TEntity, TKey>
     where TEntity : class, IHasId<TKey>
     where TKey : IEquatable<TKey>
 {

@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace KeystoneFX.Infrastructure.Identity.Configurations;
 
-public sealed class UserLoginConfig : IEntityTypeConfiguration<UserLogin>
+public class UserLoginConfig : IEntityTypeConfiguration<UserLogin>
 {
     public void Configure(EntityTypeBuilder<UserLogin> builder)
     {

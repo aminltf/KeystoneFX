@@ -1,6 +1,6 @@
 ﻿namespace KeystoneFX.Infrastructure.Persistence.Specifications;
 
-public sealed class SpecificationEvaluatorOptions
+public class SpecificationEvaluatorOptions
 {
     public bool UseSplitQueryForMultipleIncludes { get; init; } = true;
 

@@ -4,7 +4,7 @@ using System.Linq.Expressions;
 
 namespace KeystoneFX.Application.Common.Specifications;
 
-public sealed class ByIdProjectedSpec<TEntity, TKey, TDto>
+public class ByIdProjectedSpec<TEntity, TKey, TDto>
         : ProjectedSpecification<TEntity, TDto>
         where TEntity : class, IHasId<TKey>
         where TKey : IEquatable<TKey>

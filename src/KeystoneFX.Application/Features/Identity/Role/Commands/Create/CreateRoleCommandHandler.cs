@@ -8,7 +8,7 @@ using RoleEntity = KeystoneFX.Domain.Identity.Role;
 
 namespace KeystoneFX.Application.Features.Identity.Role.Commands.Create;
 
-public sealed class CreateRoleCommandHandler
+public class CreateRoleCommandHandler
     : CreateCommandHandlerBase<CreateRoleCommand, RoleCreateDto, RoleEntity, Guid>
 {
     private readonly RoleManager<RoleEntity> _roleManager;

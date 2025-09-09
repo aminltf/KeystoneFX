@@ -1,6 +1,6 @@
 ﻿namespace KeystoneFX.Application.Features.Identity.User.Dtos;
 
-public sealed record UserUpdateDto
+public record UserUpdateDto
 {
     // Identity
     public string? UserName { get; init; }

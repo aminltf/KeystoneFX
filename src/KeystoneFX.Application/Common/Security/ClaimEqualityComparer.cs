@@ -2,7 +2,7 @@
 
 namespace KeystoneFX.Application.Common.Security;
 
-public sealed class ClaimEqualityComparer : IEqualityComparer<Claim>
+public class ClaimEqualityComparer : IEqualityComparer<Claim>
 {
     private readonly StringComparer _typeComparer;
     private readonly StringComparer _valueComparer;

@@ -2,6 +2,6 @@
 
 namespace KeystoneFX.Shared.Kernel.Core.Querying.Spec;
 
-public sealed record OrderExpression<TEntity>(
+public record OrderExpression<TEntity>(
         Expression<Func<TEntity, object>> KeySelector,
         bool Descending);

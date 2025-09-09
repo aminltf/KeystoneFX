@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace KeystoneFX.Infrastructure.Identity.Contexts;
 
-public sealed class IdentityContext
+public class IdentityContext
     : IdentityDbContext<
         User, Role, Guid,
         UserClaim, UserRole, UserLogin,

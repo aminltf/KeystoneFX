@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace KeystoneFX.Infrastructure.Identity.Configurations;
 
-public sealed class RoleClaimConfig : IEntityTypeConfiguration<RoleClaim>
+public class RoleClaimConfig : IEntityTypeConfiguration<RoleClaim>
 {
     public void Configure(EntityTypeBuilder<RoleClaim> builder)
     {

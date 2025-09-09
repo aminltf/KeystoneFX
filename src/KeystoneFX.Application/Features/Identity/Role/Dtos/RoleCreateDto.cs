@@ -1,6 +1,6 @@
 ﻿namespace KeystoneFX.Application.Features.Identity.Role.Dtos;
 
-public sealed record RoleCreateDto
+public record RoleCreateDto
 {
     public required string Name { get; init; }
     public string? DisplayName { get; init; }

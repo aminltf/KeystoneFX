@@ -1,6 +1,6 @@
 ﻿namespace KeystoneFX.Application.Features.Identity.User.Dtos;
 
-public sealed record UserCreateDto
+public record UserCreateDto
 {
     // Identity essentials
     public required string UserName { get; init; }

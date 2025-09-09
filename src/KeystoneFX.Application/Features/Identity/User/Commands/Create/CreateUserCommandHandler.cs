@@ -11,7 +11,7 @@ using RoleEntity = KeystoneFX.Domain.Identity.Role;
 
 namespace KeystoneFX.Application.Features.Identity.User.Commands.Create;
 
-public sealed class CreateUserCommandHandler
+public class CreateUserCommandHandler
     : CreateCommandHandlerBase<CreateUserCommand, UserCreateDto, UserEntity, Guid>
 {
     private readonly IPasswordHasher<UserEntity> _passwordHasher;

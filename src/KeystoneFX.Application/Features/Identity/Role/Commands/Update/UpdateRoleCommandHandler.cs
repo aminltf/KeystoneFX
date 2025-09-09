@@ -9,7 +9,7 @@ using RoleEntity = KeystoneFX.Domain.Identity.Role;
 
 namespace KeystoneFX.Application.Features.Identity.Role.Commands.Update;
 
-public sealed class UpdateRoleCommandHandler
+public class UpdateRoleCommandHandler
     : UpdateCommandHandlerBase<UpdateRoleCommand, RoleUpdateDto, RoleEntity, Guid>
 {
     private readonly RoleManager<RoleEntity> _roleManager;

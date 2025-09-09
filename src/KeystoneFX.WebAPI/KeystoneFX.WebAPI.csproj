@@ -22,4 +22,8 @@
     <Folder Include="Controllers\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\KeystoneFX.Infrastructure\KeystoneFX.Infrastructure.csproj" />
+  </ItemGroup>
+
 </Project>

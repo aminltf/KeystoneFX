@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace KeystoneFX.Infrastructure.Interceptors;
 
-public sealed class SoftDeleteInterceptor<TUserKey> : SaveChangesInterceptor
+public class SoftDeleteInterceptor<TUserKey> : SaveChangesInterceptor
     where TUserKey : struct, IEquatable<TUserKey>
 {
     private readonly ICurrentUser<TUserKey> _currentUser;

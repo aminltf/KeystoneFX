@@ -11,7 +11,7 @@ using RoleEntity = KeystoneFX.Domain.Identity.Role;
 
 namespace KeystoneFX.Application.Features.Identity.User.Commands.Update;
 
-public sealed class UpdateUserCommandHandler
+public class UpdateUserCommandHandler
     : UpdateCommandHandlerBase<UpdateUserCommand, UserUpdateDto, UserEntity, Guid>
 {
     private readonly ILookupNormalizer _normalizer;

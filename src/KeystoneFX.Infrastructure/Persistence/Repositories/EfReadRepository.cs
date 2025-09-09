@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace KeystoneFX.Infrastructure.Persistence.Repositories;
 
-public sealed class EfReadRepository<TEntity, TKey> : IReadRepository<TEntity, TKey>
+public class EfReadRepository<TEntity, TKey> : IReadRepository<TEntity, TKey>
         where TEntity : class, IHasId<TKey>
         where TKey : IEquatable<TKey>
 {
